@@ -1,4 +1,6 @@
-﻿Module Program
+﻿Imports System.Net.Http
+
+Module Program
 
     Sub Main()
 
