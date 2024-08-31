@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{22FB3D6D-B2B0-4B4D-8F13-3502180BFABB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Meteorology.Module1</StartupObject>
+    <StartupObject>Meteorology.Program</StartupObject>
     <RootNamespace>Meteorology</RootNamespace>
     <AssemblyName>Meteorology</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="Program.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
